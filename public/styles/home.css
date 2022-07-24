@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    cursor: url(https://cdn.custom-cursor.com/db/3979/32/arrow2327.png) , pointer!important;
+    flex-direction: column;
+    background: radial-gradient(at top, #FFC7FD 0%, rgb(255, 255, 255) 100%);
+}
+#rainbow-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    min-width: 440px;
+    height: 25%;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+}
+#main-content{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: radial-gradient(at left, #8EE8D8 0%, #cdd9d7 100%);
+}
+.column{
+    width: inherit;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-left: solid 2px #D365FA;
+    border-right: solid 2px #D365FA;
+    border-top: solid 3px #D365FA;
+    padding-top: 10px;
+}
+
+#rainbow{
+    overflow: hidden;
+    height: 250px;
+    width: 500px;
+}
+
+#rainbow-top{
+    background-color: #C3EDD5;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#rainbow-mid{
+    background-color: #46D4E1;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#rainbow-bot{
+    background-color: #D365FA;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#rainbow-empty{
+    background-color: #fed1fc;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rainbow-text{
+    font-family: "Chilanka";
+    height: 50px;
+    padding-top: 8px;
+    font-size: 37px;
+}
+
+#rain-text-mid{
+    padding-top: 14px;
+    font-size: 33px;
+}
+
+#rain-text-bot{
+    padding-top: 14px;
+    font-size: 25px;
+}
+
+.column-title{
+    font-weight: bold;
+    font-size: 30px;
+}
